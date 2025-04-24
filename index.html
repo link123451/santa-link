@@ -1,0 +1,299 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>CC CASINO</title>
+    </head>
+    <body>
+         <div id="loading-container">
+            <video id="loading-video" autoplay muted playsinline>
+            <source src="loading.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="wrap">
+            <div class="content">
+                <div class="left">
+                    <img src="FtjfdURrxpYa3UdEzMHoInuCI80.avif" alt="">
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <img class="logo_img" src="JJUTn1GO1QP3DDY5MUVwXFQQ38E.avif" alt="">
+                        <p class="title">Welcome Santa Casino</p>
+                        <p class="title">PERPECTED</p>
+    
+                        <p class="input_box" type="text" value="ccc-02.com" readonly onclick="window.open('https://stc-8390.com', '_blank')">stc-8390.com</p>
+                        <p class="input_box" type="text" value="ccc-02.com" readonly onclick="window.open('https://stc-3812.com', '_blank')">stc-3812.com</p>
+                        <p class="input_box" type="text" value="ccc-02.com" readonly onclick="window.open('https://stc-1823.com', '_blank')">stc-1823.com</p>
+    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <style>
+
+#loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black; /* 또는 원하는 배경색 */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading-container video {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 1100px) {
+    #loading-container {
+        display: flex;
+        align-items: center;
+    }
+    #loading-container video {
+        object-fit: contain;
+        width: 370%;
+        min-height: 100vh;
+        height: 100%;
+    }
+}
+
+
+
+            @font-face {
+                font-family: 'GmarketSans';
+                src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+                font-weight: 500;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'GmarketSans';
+                src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+                font-weight: 700;
+                font-style: normal;
+            }
+            body {
+                background: #000;
+            }
+
+            html, body, .wrap {
+                margin: 0;
+                padding: 0;
+                font-family: 'GmarketSans', sans-serif;
+                width: 100%;
+                min-height: 100vh;
+            }
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.05); /* 커지는 비율 */
+                }
+                100% {
+                    transform: scale(1);
+                }
+                }
+            
+            
+            .left img {
+                margin-top: 30px;
+                height: calc(100vh - 17%);
+                position: fixed;
+                bottom: 0;
+                animation: pulse 2s infinite ease-in-out;
+                margin-left: 5%;
+            }
+            .left, .right {
+                width: 50%;
+            }
+            .logo_img {
+                width: 25%;
+                transition: opacity 1s ease;
+                opacity: 0;
+            }
+            .logo_img.visible {
+                opacity: 1;
+            }
+            .wrap {
+                background-image: url('eR7zqT6JMqBq7RtFawQsdjBW0.avif');
+                background-repeat : no-repeat;
+                background-size: cover;
+            }
+
+            .content {
+                display: flex;
+            }
+            .right {
+                padding: 30px;
+                display: flex;
+            }
+            .right .box {
+                padding: 110px 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                min-height: calc(100vh - 280px);
+                background-position-x: center;
+                min-width: 90%;
+                justify-content: center;
+
+            }
+            .right .title {
+                font-size: 2vw;
+                margin: 0;
+                line-height: 1.5;
+                font-weight: 700;
+                color: #fff;
+                transition: opacity 1s ease;
+                opacity: 0;
+            }
+            .right .title.visible {
+                opacity: 1;
+            }
+            body > div.wrap > div > div.right > div > p:nth-child(2) {
+                margin-top: 4%;
+            }
+            body > div.wrap > div > div.right > div > p:nth-child(3) {
+                margin-bottom: 4%;
+            }
+            .right .content {
+                font-size: 15px;
+                font-weight: 300;
+                color: #000;
+                margin: 5px 0 30px;
+            }
+            .input_box {
+                background: rgb(109, 0, 0);
+                /* background: linear-gradient(45deg, #2553ad, #192136); */
+                /* border: 1px solid #fff; */
+                /* box-shadow: 0 0 20px #71a7da; */
+                border: none;
+                border-radius: 1000px;
+                padding: 1% 3%;
+                width: fit-content;
+                font-size: 1.1vw;
+                color: #fff;
+                margin-bottom: 20px;
+                text-align: center;
+                font-family: 'GmarketSans', sans-serif;
+                font-weight: 700;
+                margin: 1%;
+                transition: opacity 1s ease;
+                opacity: 0;
+            }
+            .input_box.visible {
+                opacity: 1;
+            }
+            
+            .input_box:hover {
+                /* box-shadow: 0px 0px 5px #1e40ff, 0px 0px 10px #1e40ff, 0px 0px 15px #1e40ff; */
+                background: rgb(51, 0, 11);
+                transition: all 300ms;
+                cursor: pointer;
+                transform: scale(1.03);
+            }    
+            .right img {
+                cursor: pointer;
+            }
+
+
+
+
+
+
+            @media (max-width: 1100px) {
+                .left, .right {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .content {
+                    flex-direction: column;
+                    min-height: 100vh;
+                    justify-content: space-between;
+                }
+                .left img {
+                    width: 90%;
+                    height: unset;
+                    margin: unset;
+                }
+                .right {
+                    padding:  unset;
+                }
+                .right .box {
+                    min-height: unset;
+                    padding: 50px 0;
+                }
+
+                .logo_img {
+                    width: 28%;
+                    margin-bottom: 3%;
+                }
+                .right .title {
+                    font-size: 6.5vw;
+                }
+                .input_box {
+                    font-size: 5.4vw;
+                    width: 60%;
+                    padding: 10px;
+                }
+                .left img {
+                    position: unset;
+                }
+                .left {
+                    order: 1;
+                }
+                
+            }
+
+        </style>
+
+        <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const video = document.getElementById('loading-video');
+            const loadingContainer = document.getElementById('loading-container');
+            const mainContent = document.querySelector('.content');
+            const logo = document.querySelector('.logo_img');
+
+            const titel1 = document.querySelector('body > div.wrap > div > div.right > div > p:nth-child(2)')
+            const titel2 = document.querySelector('body > div.wrap > div > div.right > div > p:nth-child(3)')
+
+            const input_box1 = document.querySelector("body > div.wrap > div > div.right > div > p:nth-child(4)")
+            const input_box2 = document.querySelector("body > div.wrap > div > div.right > div > p:nth-child(5)")
+            const input_box3 = document.querySelector("body > div.wrap > div > div.right > div > p:nth-child(6)")
+
+            video.addEventListener('ended', () => {
+            // 로딩 비디오 숨기고 메인 콘텐츠 표시
+            loadingContainer.style.display = 'none';
+            mainContent.style.display = 'flex';
+
+            // 로고 페이드인
+            setTimeout(() => {
+                logo.classList.add('visible');
+            }, 100); 
+
+            setTimeout(() => {
+                titel1.classList.add('visible');
+                titel2.classList.add('visible');
+            }, 150);
+
+            setTimeout(() => {
+                input_box1.classList.add('visible');
+                input_box2.classList.add('visible');
+                input_box3.classList.add('visible');
+            }, 250); 
+
+            });
+        });
+        </script>
+
+    </body>
+</html>
